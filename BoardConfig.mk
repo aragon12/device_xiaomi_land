@@ -217,6 +217,9 @@ PROTOBUF_SUPPORTED := true
 TARGET_RIL_VARIANT := caf
 DISABLE_RILD_OEM_HOOK := false
 
+# Vendor security Patch
+VENDOR_SECURITY_PATCH := 2018-09-01
+
 # SELinux
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
