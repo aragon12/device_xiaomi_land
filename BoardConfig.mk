@@ -215,7 +215,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # RIL
 PROTOBUF_SUPPORTED := true
 TARGET_RIL_VARIANT := caf
-DISABLE_RILD_OEM_HOOK := false
 
 # Vendor security Patch
 VENDOR_SECURITY_PATCH := 2018-09-01
